@@ -1,4 +1,7 @@
 #import "kit-template.typ": *
+
+
+
 #show: doc => thesis(
   title: "A thesis example",
   abstract: (german: [Dies ist die Zusammenfassung in Deutsch. Weiter geht es, um den Platz zu füllen, mit #lorem(200)], english: [This is the english abstract. To fill further space, we'll continue with #lorem(200)]),
@@ -87,8 +90,12 @@ Of course, you can split this _.typ_ file into several files if you prefer.
 
 #lorem(200)
 === More example content
-#lorem(200)
+#lorem(2000)
 
+= Long Content Chapter
+Introduction: #lorem(50)
+== Long subchapter
+#lorem(5000)
 = Conclusion
 
 #show: doc => appendix(doc)
